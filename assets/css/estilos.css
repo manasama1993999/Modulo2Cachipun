@@ -6,7 +6,7 @@
 }
 body{
     /*background-color: var(--blue1);*/
-    background: linear-gradient(to right,yellow,orange);
+    background: linear-gradient(to right,purple,blue);
 }
 .container{
     background: linear-gradient(to right,rgb(89, 221, 238),green);
