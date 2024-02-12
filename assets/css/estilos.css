@@ -1,0 +1,36 @@
+:root{
+    --blue1 : #3646C9;
+    --blue2 : #4730C4;
+    --green1 : #2BD354;
+    --negro : #000000;
+}
+body{
+    /*background-color: var(--blue1);*/
+    background: linear-gradient(to right,yellow,orange);
+}
+.container{
+    background: linear-gradient(to right,rgb(89, 221, 238),green);
+    text-align: center;
+    border-color: var(--negro);
+    border: solid 3px;
+    border-radius: 10px;
+    
+}
+h1{
+    font-weight: bold;
+    color: var(--negro);
+}
+h2{
+    font-weight: bold;
+    color: var(--negro);
+}
+h3{
+    color: var(--negro);
+    font-weight: bold;
+}
+.juego{
+    margin: 25px;
+}
+.JuegosPPT{
+    display: flex;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es-Cl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <title>Piedra Papel Tijeras</title>
+</head>
+<body>
+    <div class="container sm-4 md-4 p-4 my-4 d-flex d-none d-md-block">
+        <div class="row">
+            <h1>Piedra Papel Tijeras Cachipun!</h1>
+            <hr>
+            <p id="resultado"></p>
+        </div>
+    </div>
+    <div class="container sm-4 md-4 p-4 my-4 d-flex d-none d-md-block">
+        <div class="row" id="JuegosPPT" class="Juegos">
+            <div id="usuario" class="col-4 col-sm-12 col-md-4 my-4">
+                <div id="imgusuario" class="juego">
+                    <!-- Imagen de Piedra Papel o Tijeras -->
+                </div>
+                <h3>Usuario</h3>
+                <span id="resultadoCPU">0</span>
+                <!--<h2 id="resultadoUsuario"></h3>-->
+            </div>
+            <div class="col-4 col-sm-12 col-md-4 my-4">
+                <div id="versus" class="container sm-4 md-4 p-4 my-4 d-flex d-none d-md-block">
+                    <h3 >VS</h3>
+                    <hr>
+                    <h1 id="Logro"></h4>
+                </div>
+            </div>
+            <div id="cpu" class="col-4 col-sm-12 col-md-4 my-4">
+                <div id="imgcpu" class="juego">
+                    <!-- Imagen de Piedra Papel o Tijeras -->
+                </div> 
+                <h3>CPU</h3>
+                <span id="resultadoCPU">0</span>
+                <!--<h3 id="resultadoCPU"></h3>-->
+            </div>
+        </div>
+    </div>
+    <div class="container sm-4 md-4 p-4 my-4 d-flex d-none d-md-block">
+        <div class="row">
+            <div class="col-4 col-sm-12 col-md-4 my-4">
+                <button id="papel1" type="button" class="btn"><img src="assets/img/mano.png" alt="Papel"></button>
+            </div>
+            <div class="col-4 col-sm-12 col-md-4 my-4">
+                <button id="piedra1" type="button" class="btn"><img src="assets/img/golpear.png" alt="Piedra"></button>
+            </div>
+            <div class="col-4 col-sm-12 col-md-4 my-4">
+                <button id="tijera1" type="button" class="btn"><img src="assets/img/dos.png" alt="Tijera"></button>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Elije una Opcion!</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
